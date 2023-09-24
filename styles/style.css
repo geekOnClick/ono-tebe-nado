@@ -44,6 +44,9 @@
 .address span:last-child {
     border-bottom: none;
 }
+.address__link {
+    text-decoration: none;
+}
 
 .nav-list {
     display: flex;
@@ -94,6 +97,14 @@
     list-style-type: none;
 }
 .header__logo {
+    width: 148px;
+    height: 105px;
+}
+.header__logo-image {
+    text-decoration: none;
+    display: block;
+}
+.header__logo-image svg {
     width: 148px;
     height: 105px;
 }
