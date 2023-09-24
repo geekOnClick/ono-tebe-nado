@@ -99,8 +99,6 @@
 .header__logo {
     width: 148px;
     height: 105px;
-}
-.header__logo-image {
     text-decoration: none;
     display: block;
 }
