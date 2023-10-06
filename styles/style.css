@@ -38,25 +38,22 @@
     line-height: 120%;
 }
 
-.address {
+address {
     display: flex;
     flex-direction: column;
     max-width: 240px;
 }
 
-.address address {
+address a {
     border-bottom: 1px solid black;
     width: fit-content;
     padding-left: 3px;
+    text-decoration: none;
 }
 
-.address address:last-child {
+address p {
     border-bottom: none;
     padding-left: 3px;
-}
-
-address a {
-    text-decoration: none;
 }
 
 .nav-list {
@@ -225,14 +222,13 @@ address a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    flex-grow: 1;
-    gap: 5px;
+    gap: 25px;
 }
 
 .lots__card-list-item {
     flex-grow: 1;
     list-style-type: none;
-    max-width: 430px;
+    width: 430px;
     height: 450px;
     position: relative;
 }
@@ -256,7 +252,7 @@ address a {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
